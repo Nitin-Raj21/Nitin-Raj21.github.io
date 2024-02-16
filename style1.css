@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(BMW3.png);
+    background-size:cover;
+    background-position: center;
+    padding: 20px 10%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .Logo{
+    width: 220px;
+    cursor: pointer;
+}
+
+nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 35px;
+}
+
+.content{
+    margin-top: 10%;
+}
+.content h2{
+    color:brown;
+    font-size: 34px;
+}
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -10px;
+}
+.content p{
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.content h3{
+    margin-top: 15px;
+    font-weight: 300px;
+    font-size: 24px;
+    color:darkgreen
+}
+
+.grid-container {
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+  }
+  
+
+  
+  
+  .div1{
+    
+    background-color: black;
+  }
+  .div2{
+    
+    background-color: skyblue;
+  }
+  .div3{
+    
+    background-color: whitesmoke;
+    
+  }
+  #navigation{
+    background-color: #181818;
+    padding: 10px;
+    
+  }
+
+  #navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    
+  }
+
+  #navigation li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  #navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+  }
+  #navigation a.current{
+    background: #8f746c;
+    border-radius: 4px;
+  }
+
+
+.color-select div{
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.color-select {
+  display: flex;
+  margin-top: 30px;
+}
+
+.color-select #red{
+  background: red;
+}
+  
+.color-select #blue{
+  background: blue;
+}
+
+.color-select #black{
+  background: black;
+}
+
+
+
